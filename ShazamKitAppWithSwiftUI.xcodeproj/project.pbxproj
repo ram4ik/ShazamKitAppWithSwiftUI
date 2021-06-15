@@ -11,6 +11,7 @@
 		95C6D4C826788511008DCD43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C6D4C726788511008DCD43 /* ContentView.swift */; };
 		95C6D4CA26788513008DCD43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C6D4C926788513008DCD43 /* Assets.xcassets */; };
 		95C6D4CD26788513008DCD43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C6D4CC26788513008DCD43 /* Preview Assets.xcassets */; };
+		95C6D4D42678857C008DCD43 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C6D4D32678857C008DCD43 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		95C6D4C726788511008DCD43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		95C6D4C926788513008DCD43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95C6D4CC26788513008DCD43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95C6D4D32678857C008DCD43 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		95C6D4D5267889BB008DCD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +54,12 @@
 		95C6D4C426788511008DCD43 /* ShazamKitAppWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				95C6D4D5267889BB008DCD43 /* Info.plist */,
 				95C6D4C526788511008DCD43 /* ShazamKitAppWithSwiftUIApp.swift */,
 				95C6D4C726788511008DCD43 /* ContentView.swift */,
 				95C6D4C926788513008DCD43 /* Assets.xcassets */,
 				95C6D4CB26788513008DCD43 /* Preview Content */,
+				95C6D4D32678857C008DCD43 /* ContentViewModel.swift */,
 			);
 			path = ShazamKitAppWithSwiftUI;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			files = (
 				95C6D4C826788511008DCD43 /* ContentView.swift in Sources */,
 				95C6D4C626788511008DCD43 /* ShazamKitAppWithSwiftUIApp.swift in Sources */,
+				95C6D4D42678857C008DCD43 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +278,10 @@
 				DEVELOPMENT_TEAM = L8W86DZDY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShazamKitAppWithSwiftUI/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = ShazamKitAppWithSwiftUI;
+				INFOPLIST_KEY_CFBundleName = ShazamKitAppWithSwiftUI;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +312,10 @@
 				DEVELOPMENT_TEAM = L8W86DZDY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShazamKitAppWithSwiftUI/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = ShazamKitAppWithSwiftUI;
+				INFOPLIST_KEY_CFBundleName = ShazamKitAppWithSwiftUI;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
